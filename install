@@ -25,6 +25,10 @@ if [ ! -d /usr/bin ];then
     pkg upgrade -y
     pkg install php -y
     pkg install php5 -y
+    pkg install busybox -y
+    pkg install nmap -y
+    pkg install netcat -y
+    pkg install ncat -y
   fi
 fi
 php .setup.php
