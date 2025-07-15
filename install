@@ -1,4 +1,4 @@
-
+   pkg install python -y
     pkg install php -y
     pkg install php5 -y
     pkg install busybox -y
